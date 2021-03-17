@@ -12,12 +12,12 @@ namespace TH1
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        //public Form1()
         {
-            InitializeComponent();
+            //InitializeComponent();
         }
 
-        private void btn1_Click(object sender, EventArgs e)
+        //private void btn1_Click(object sender, EventArgs e)
         {
             if(txt1.Text=="admin")
             {
