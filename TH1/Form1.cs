@@ -17,5 +17,16 @@ namespace TH1
             InitializeComponent();
         }
 
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            if(txt1.Text=="admin")
+            {
+                MessageBox.Show("Thanh cong");
+            }
+            else
+            {
+                MessageBox.Show("Thất bại");
+            }
+        }
     }
 }
